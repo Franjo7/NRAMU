@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toTopOf="@id/textview_second"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="In 1995, a visionary entrepreneur named Jeff Bezos started an online bookstore from his garage in Seattle.\nDriven by a passion for revolutionizing commerce, Bezos aimed to create the world's largest online retailer.\nThe initial days of Amazon were humble, with Bezos and a small team packing and shipping orders themselves.\nHowever, Bezos's relentless focus on customer satisfaction and his innovative approach to e-commerce quickly set Amazon on a trajectory for success.\nAs the platform expanded beyond books to include various products, the company's growth became exponential.\nDespite skepticism from some quarters, Bezos persisted in his vision, introducing services like Amazon Prime for faster shipping and streaming.\nOver the years, Amazon evolved into a tech giant, diversifying its offerings to include cloud computing, artificial intelligence, and entertainment.\nJeff Bezos's ability to foresee the potential of online retail transformed Amazon into one of the most valuable and influential companies globally.\nHis story serves as an inspiration for aspiring entrepreneurs, highlighting the impact of innovation, customer-centricity, and determination in business."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_second" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
