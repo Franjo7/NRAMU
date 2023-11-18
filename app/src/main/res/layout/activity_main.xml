@@ -32,7 +32,7 @@
             android:layout_marginBottom="10dp"
             android:drawableLeft="@drawable/baseline_email_24"
             android:ems="10"
-            android:hint="Unesite email adresu"
+            android:hint="Email Adresa"
             android:inputType="textEmailAddress"
             android:minHeight="48dp" />
 
@@ -43,7 +43,7 @@
             android:layout_marginBottom="10dp"
             android:drawableLeft="@drawable/baseline_password_24"
             android:ems="10"
-            android:hint="Unesite lozinku"
+            android:hint="Lozinka"
             android:inputType="textPassword"
             android:minHeight="48dp" />
 

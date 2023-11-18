@@ -21,7 +21,7 @@
             android:id="@+id/nameTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vaše ime"
+            android:hint="Ime"
             android:inputType="text"
             android:minHeight="48dp"/>
 
@@ -29,7 +29,7 @@
             android:id="@+id/surnameTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vaše prezime"
+            android:hint="Prezime"
             android:inputType="text"
             android:minHeight="48dp"/>
 
@@ -37,7 +37,7 @@
             android:id="@+id/phoneTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vaš broj telefona"
+            android:hint="Broj Telefona"
             android:inputType="phone"
             android:minHeight="48dp" />
 
@@ -45,7 +45,7 @@
             android:id="@+id/addressTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vašu adresu"
+            android:hint="Adresa"
             android:inputType="textPostalAddress"
             android:minHeight="48dp"/>
 
@@ -53,7 +53,7 @@
             android:id="@+id/placeTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vaše mjesto"
+            android:hint="Mjesto"
             android:inputType="text"
             android:minHeight="48dp"/>
 
@@ -61,7 +61,7 @@
             android:id="@+id/countryTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Unesite vašu državu"
+            android:hint="Država"
             android:inputType="text"
             android:minHeight="48dp"/>
 
