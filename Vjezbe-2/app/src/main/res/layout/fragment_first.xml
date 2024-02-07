@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toTopOf="@id/textview_first"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Once upon a time in 2013, in a small Welsh town named Aberystwyth, an extraordinary event unfolded involving a forgotten piece of technology and an accidental quest for buried treasure.\nIt all began when James Howells, an IT worker, was cleaning his house and stumbled upon an old hard drive.\nLittle did he know that this seemingly insignificant discovery would lead him on a wild adventure.\nAs he dusted off the hard drive, James remembered that it belonged to an old laptop he had discarded.\nCuriosity led him to wonder what might be on it, and to his surprise, he realized it contained the encrypted key\nto a digital wallet with 7,500 bitcoins. Now, in 2013, the value of one bitcoin was on the rise, and those\n7,500 bitcoins were worth a small fortune. Excitement filled James as he thought about the potential windfall,\nbut that joy quickly turned to despair when he realized he had thrown away the actual laptop during a\ncleaning spree. The hard drive, with the virtual treasure trove, was languishing in a landfill somewhere.\nUndeterred, James hatched a plan. He approached local authorities with a proposal to excavate the landfill,\nsearching for the discarded hard drive. However, this was no ordinary task. The landfill was massive,\nand the chances of finding the hard drive seemed akin to searching for a needle in a haystack. Despite the odds,\nJames was determined. The local council, perhaps intrigued by the audacity of the quest, gave him the green light.\nThe hunt for the lost hard drive commenced, and a team of diggers began the painstaking task of sifting\nthrough tons of garbage. Days turned into weeks, and hope flickered as the enormity of the landfill became apparent. The media caught wind of the story, turning James' quest into a global sensation. People around the world watched, fascinated, as the hunt for the bitcoin hard drive unfolded in real-time.\nBut, after weeks of excavation, the hard drive remained elusive. The search was called off, leaving James with the\nbitter realization that his fortune was buried somewhere beneath layers of waste. The story of James Howells and\nthe lost bitcoins became a cautionary tale in the world of cryptocurrency. It highlighted the need for\nsecure storage and the volatile nature of virtual wealth. And so, in the annals of Aberystwyth,\nthe tale of the discarded hard drive and the elusive bitcoins remains both a quirky piece of history\nand a reminder that sometimes, real-life stories can be as fascinating and unpredictable as any fictional narrative."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_first" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
